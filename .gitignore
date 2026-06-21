@@ -17,4 +17,3 @@ __pycache__/
 
 # Data sets (Too large for GitHub)
 data/raw/
-data/processed/
