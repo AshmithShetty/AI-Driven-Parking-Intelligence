@@ -1,0 +1,54 @@
+PHASE 2 CONGESTION IMPACT SCORING REPORT
+
+engineering scoring weights used:
+  density: 0.2
+  severity: 0.12
+  footprint: 0.18
+  junction: 0.12
+  chronicity: 0.1
+  road_context: 0.13
+  shift_risk: 0.15
+
+face validity check, junction cells vs mid block cells:
+  junction cell count: 101
+  junction mean cis: 63.07
+  midblock cell count: 675
+  midblock mean cis: 48.12
+
+total cells scored: 776
+cells with null cis: 0
+cis min: 14.65
+cis max: 83.86
+
+top 15 hotspots by congestion impact score:
+
+cell 8860145b59fffff | cis 83.9 | station City Market | junction BTP082 - KR Market Junction | raw_violations 9906 | violations_per_device 44.9 | estimated_capacity_loss 32.5 percent
+    breakdown -> density 19.6, severity 7.3, footprint 11.5, junction 11.7, chronicity 8.8, road_context 12.9, shift_risk 12.0
+cell 88618920bbfffff | cis 83.6 | station HAL Old Airport | junction No Junction | raw_violations 1537 | violations_per_device 22.9 | estimated_capacity_loss 29.2 percent
+    breakdown -> density 18.5, severity 11.1, footprint 16.2, junction 5.0, chronicity 8.3, road_context 12.2, shift_risk 12.3
+cell 8861892e55fffff | cis 81.0 | station Mahadevapura | junction No Junction | raw_violations 469 | violations_per_device 21.0 | estimated_capacity_loss 24.8 percent
+    breakdown -> density 18.3, severity 11.4, footprint 14.8, junction 5.0, chronicity 8.2, road_context 11.5, shift_risk 11.8
+cell 88618925c1fffff | cis 80.4 | station Madiwala | junction BTP137 - Madiwala Traffic PS Junction | raw_violations 697 | violations_per_device 12.7 | estimated_capacity_loss 32.1 percent
+    breakdown -> density 16.7, severity 6.0, footprint 16.0, junction 10.5, chronicity 9.5, road_context 11.6, shift_risk 10.2
+cell 8861892589fffff | cis 79.0 | station Mico Layout | junction No Junction | raw_violations 807 | violations_per_device 31.7 | estimated_capacity_loss 21.5 percent
+    breakdown -> density 18.9, severity 10.1, footprint 9.1, junction 10.5, chronicity 9.6, road_context 9.1, shift_risk 11.6
+cell 8861892531fffff | cis 78.5 | station Jeevanbheemanagar | junction No Junction | raw_violations 765 | violations_per_device 18.4 | estimated_capacity_loss 23.5 percent
+    breakdown -> density 18.0, severity 6.2, footprint 15.1, junction 10.3, chronicity 6.6, road_context 10.5, shift_risk 11.9
+cell 8860145829fffff | cis 78.4 | station Rajajinagar | junction No Junction | raw_violations 403 | violations_per_device 14.8 | estimated_capacity_loss 27.6 percent
+    breakdown -> density 17.4, severity 11.3, footprint 16.2, junction 5.0, chronicity 9.1, road_context 11.6, shift_risk 7.9
+cell 8861892e3bfffff | cis 78.4 | station Banaswadi | junction No Junction | raw_violations 383 | violations_per_device 7.4 | estimated_capacity_loss 32.5 percent
+    breakdown -> density 14.2, severity 10.9, footprint 16.9, junction 5.0, chronicity 7.7, road_context 11.6, shift_risk 12.1
+cell 8861892e39fffff | cis 78.3 | station Mahadevapura | junction No Junction | raw_violations 2053 | violations_per_device 25.7 | estimated_capacity_loss 21.5 percent
+    breakdown -> density 18.7, severity 10.5, footprint 13.8, junction 5.0, chronicity 7.5, road_context 11.7, shift_risk 11.1
+cell 8860145a3bfffff | cis 78.2 | station Byatarayanapura | junction No Junction | raw_violations 181 | violations_per_device 14.2 | estimated_capacity_loss 38.1 percent
+    breakdown -> density 17.1, severity 11.5, footprint 17.2, junction 10.2, chronicity 9.7, road_context 4.6, shift_risk 7.9
+cell 8861892ed3fffff | cis 77.9 | station Halasur | junction No Junction | raw_violations 1600 | violations_per_device 19.7 | estimated_capacity_loss 16.8 percent
+    breakdown -> density 18.2, severity 7.1, footprint 10.8, junction 10.1, chronicity 9.2, road_context 11.1, shift_risk 11.3
+cell 8860145b17fffff | cis 77.4 | station Vijayanagara | junction BTP027 - Modi Bridge Junction | raw_violations 2893 | violations_per_device 25.3 | estimated_capacity_loss 26.3 percent
+    breakdown -> density 18.6, severity 6.9, footprint 10.6, junction 11.4, chronicity 9.3, road_context 11.4, shift_risk 9.1
+cell 8861892447fffff | cis 77.1 | station Hulimavu | junction No Junction | raw_violations 460 | violations_per_device 93.5 | estimated_capacity_loss 28.7 percent
+    breakdown -> density 19.9, severity 2.4, footprint 16.7, junction 5.0, chronicity 9.7, road_context 10.2, shift_risk 13.2
+cell 8860145b5bfffff | cis 77.0 | station Chamarajpet | junction BTP089 - Police Quarters, Sultan Road | raw_violations 166 | violations_per_device 3.4 | estimated_capacity_loss 43.0 percent
+    breakdown -> density 9.8, severity 10.3, footprint 15.9, junction 11.1, chronicity 7.3, road_context 9.9, shift_risk 12.7
+cell 886189240dfffff | cis 77.0 | station Hulimavu | junction No Junction | raw_violations 880 | violations_per_device 68.0 | estimated_capacity_loss 19.7 percent
+    breakdown -> density 19.9, severity 6.6, footprint 13.5, junction 5.0, chronicity 8.9, road_context 10.7, shift_risk 12.4

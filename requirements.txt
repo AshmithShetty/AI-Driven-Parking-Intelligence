@@ -1,0 +1,11 @@
+pandas
+numpy
+pyarrow
+streamlit
+pydeck
+h3
+scikit-learn
+scipy
+matplotlib
+requests
+python-dotenv

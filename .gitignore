@@ -1,0 +1,20 @@
+# Environments
+.env
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+
+# Local agents cache
+.agents/
+
+# Data sets (Too large for GitHub)
+data/raw/
+data/processed/

@@ -1,0 +1,16 @@
+VALIDATION SUMMARY
+
+temporal stability
+  spearman: 0.683
+  p_value: 0.000000
+  cells_compared: 612
+
+monthly forward backtest
+  mean future proxy spearman: 0.539
+  mean future density spearman: 0.419
+  mean precision@20: 0.350
+
+  2024-01 | cells 526 | proxy_spearman 0.580 | density_spearman 0.449 | precision@20 0.400
+  2024-02 | cells 519 | proxy_spearman 0.538 | density_spearman 0.423 | precision@20 0.350
+  2024-03 | cells 534 | proxy_spearman 0.566 | density_spearman 0.459 | precision@20 0.350
+  2024-04 | cells 401 | proxy_spearman 0.472 | density_spearman 0.344 | precision@20 0.300

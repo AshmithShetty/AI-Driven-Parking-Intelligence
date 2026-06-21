@@ -1,0 +1,30 @@
+PHASE 1 DATA QUALITY REPORT
+
+total rows loaded: 298450
+date range found (IST): 2023-11-10 00:41:46+05:30 to 2024-04-08 23:00:46+05:30
+filename label says: Jan to May, actual range differs from this label
+
+approved: 115400
+rejected: 49754
+processing: 678
+created1: 7044
+duplicate: 320
+unvalidated (nan): 125254
+
+junction violations: 150565
+mid block violations: 147885
+vehicle type corrected rows: 6169
+
+shift window distribution (IST):
+  00-06: 100444
+  06-12: 156821
+  12-18: 39053
+  18-24: 2127
+
+h3 cells generated: 776
+enforcement effort confound correlation r: 0.7361
+enforcement effort confound r squared: 0.5418
+
+interpretation: high r squared means violation density is significantly
+explained by patrol device count rather than true illegal parking rate
+all downstream density features must use violations_per_device, not raw counts

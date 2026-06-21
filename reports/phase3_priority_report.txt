@@ -1,0 +1,84 @@
+PHASE 3 HOTSPOT DETECTION AND ENFORCEMENT PRIORITIZATION REPORT
+
+priority score weights:
+  cis: 0.6
+  egs: 0.4
+
+enforcement gap score weights:
+  unactioned: 0.6
+  rejection: 0.4
+
+priority tier thresholds (priority score):
+  P0 cutoff: 60.22
+  P1 cutoff: 51.82
+  P2 cutoff: 40.80
+
+tier counts:
+  P0: 194
+  P1: 194
+  P2: 194
+  P3: 194
+
+top 15 cells by overall priority score:
+
+cell 8861892e3bfffff | tier P0 | priority 77.4 | cis 78.4 | egs 75.9 | capacity_loss 32.5 | station Banaswadi | junction No Junction
+    shift share -> 00-06 0.60, 06-12 0.33, 12-18 0.08, 18-24 0.00
+cell 88618920bbfffff | tier P0 | priority 76.5 | cis 83.6 | egs 65.8 | capacity_loss 29.2 | station HAL Old Airport | junction No Junction
+    shift share -> 00-06 0.63, 06-12 0.30, 12-18 0.07, 18-24 0.00
+cell 88618925c1fffff | tier P0 | priority 75.7 | cis 80.4 | egs 68.7 | capacity_loss 32.1 | station Madiwala | junction BTP137 - Madiwala Traffic PS Junction
+    shift share -> 00-06 0.48, 06-12 0.42, 12-18 0.10, 18-24 0.01
+cell 8861892ed3fffff | tier P0 | priority 75.1 | cis 77.9 | egs 70.9 | capacity_loss 16.8 | station Halasur | junction No Junction
+    shift share -> 00-06 0.53, 06-12 0.38, 12-18 0.09, 18-24 0.00
+cell 8860145b59fffff | tier P0 | priority 74.9 | cis 83.9 | egs 61.5 | capacity_loss 32.5 | station City Market | junction BTP082 - KR Market Junction
+    shift share -> 00-06 0.47, 06-12 0.38, 12-18 0.03, 18-24 0.12
+cell 8861892e55fffff | tier P0 | priority 74.9 | cis 81.0 | egs 65.7 | capacity_loss 24.8 | station Mahadevapura | junction No Junction
+    shift share -> 00-06 0.57, 06-12 0.38, 12-18 0.04, 18-24 0.00
+cell 8861892589fffff | tier P0 | priority 74.6 | cis 79.0 | egs 68.0 | capacity_loss 21.5 | station Mico Layout | junction No Junction
+    shift share -> 00-06 0.56, 06-12 0.32, 12-18 0.12, 18-24 0.00
+cell 886014598dfffff | tier P0 | priority 74.4 | cis 67.1 | egs 85.2 | capacity_loss 19.8 | station Chikkabanavara | junction No Junction
+    shift share -> 00-06 0.38, 06-12 0.53, 12-18 0.09, 18-24 0.00
+cell 88618925d7fffff | tier P0 | priority 73.8 | cis 74.9 | egs 72.2 | capacity_loss 36.1 | station Jayanagara | junction BTP127 - Sagar Hospital, Jayanagar
+    shift share -> 00-06 0.48, 06-12 0.34, 12-18 0.18, 18-24 0.00
+cell 8860145b41fffff | tier P0 | priority 72.8 | cis 72.2 | egs 73.8 | capacity_loss 26.8 | station Cubbon Park | junction BTP041 - Gopal Gowda Circle
+    shift share -> 00-06 0.48, 06-12 0.51, 12-18 0.01, 18-24 0.00
+cell 8860145b15fffff | tier P0 | priority 72.6 | cis 73.7 | egs 71.1 | capacity_loss 32.8 | station Rajajinagar | junction BTP011 - RR Kalyana Mantapa, Dr. Rajkumar Road
+    shift share -> 00-06 0.67, 06-12 0.26, 12-18 0.07, 18-24 0.00
+cell 8861892541fffff | tier P0 | priority 72.6 | cis 74.9 | egs 69.1 | capacity_loss 21.0 | station Bellandur | junction No Junction
+    shift share -> 00-06 0.65, 06-12 0.31, 12-18 0.04, 18-24 0.00
+cell 8861892283fffff | tier P0 | priority 72.2 | cis 61.6 | egs 88.0 | capacity_loss 22.5 | station No Police Station | junction No Junction
+    shift share -> 00-06 0.55, 06-12 0.40, 12-18 0.05, 18-24 0.00
+cell 8861892581fffff | tier P0 | priority 71.9 | cis 72.3 | egs 71.3 | capacity_loss 30.8 | station Mico Layout | junction BTP126 - Dairy Circle
+    shift share -> 00-06 0.32, 06-12 0.61, 12-18 0.07, 18-24 0.00
+cell 886014582dfffff | tier P0 | priority 71.9 | cis 73.4 | egs 69.6 | capacity_loss 20.3 | station Rajajinagar | junction No Junction
+    shift share -> 00-06 0.35, 06-12 0.47, 12-18 0.18, 18-24 0.00
+
+evening coverage gap, P0 or P1 cells with under 5 percent of their violations falling in the 18-24 shift window:
+  flagged cell count: 384
+
+cell 8861892e3bfffff | tier P0 | priority 77.4 | station Banaswadi | junction No Junction | 18-24 share 0.000
+cell 88618920bbfffff | tier P0 | priority 76.5 | station HAL Old Airport | junction No Junction | 18-24 share 0.000
+cell 88618925c1fffff | tier P0 | priority 75.7 | station Madiwala | junction BTP137 - Madiwala Traffic PS Junction | 18-24 share 0.006
+cell 8861892ed3fffff | tier P0 | priority 75.1 | station Halasur | junction No Junction | 18-24 share 0.001
+cell 8861892e55fffff | tier P0 | priority 74.9 | station Mahadevapura | junction No Junction | 18-24 share 0.000
+cell 8861892589fffff | tier P0 | priority 74.6 | station Mico Layout | junction No Junction | 18-24 share 0.000
+cell 886014598dfffff | tier P0 | priority 74.4 | station Chikkabanavara | junction No Junction | 18-24 share 0.000
+cell 88618925d7fffff | tier P0 | priority 73.8 | station Jayanagara | junction BTP127 - Sagar Hospital, Jayanagar | 18-24 share 0.000
+cell 8860145b41fffff | tier P0 | priority 72.8 | station Cubbon Park | junction BTP041 - Gopal Gowda Circle | 18-24 share 0.000
+cell 8860145b15fffff | tier P0 | priority 72.6 | station Rajajinagar | junction BTP011 - RR Kalyana Mantapa, Dr. Rajkumar Road | 18-24 share 0.001
+cell 8861892541fffff | tier P0 | priority 72.6 | station Bellandur | junction No Junction | 18-24 share 0.000
+cell 8861892283fffff | tier P0 | priority 72.2 | station No Police Station | junction No Junction | 18-24 share 0.000
+cell 8861892581fffff | tier P0 | priority 71.9 | station Mico Layout | junction BTP126 - Dairy Circle | 18-24 share 0.000
+cell 886014582dfffff | tier P0 | priority 71.9 | station Rajajinagar | junction No Junction | 18-24 share 0.000
+cell 886189209bfffff | tier P0 | priority 71.8 | station Bellandur | junction No Junction | 18-24 share 0.000
+
+emerging hotspots flagged by anomaly detection: 9
+
+cell 8861892e91fffff | station Shivajinagar | anomaly_score 0.137 | mean_weekly 207.4 | max_week_jump 331.0 | recent_trend_ratio 1.17
+cell 8860145b37fffff | station Malleshwaram | anomaly_score 0.056 | mean_weekly 154.0 | max_week_jump 172.0 | recent_trend_ratio 1.14
+cell 8861892595fffff | station Wilson Garden | anomaly_score 0.055 | mean_weekly 39.8 | max_week_jump 185.0 | recent_trend_ratio 2.03
+cell 8861892e39fffff | station Mahadevapura | anomaly_score 0.048 | mean_weekly 89.3 | max_week_jump 189.0 | recent_trend_ratio 1.19
+cell 8861892ebdfffff | station Pulikeshinagar(F.Town) | anomaly_score 0.029 | mean_weekly 5.6 | max_week_jump 64.0 | recent_trend_ratio 3.64
+cell 8861892c3dfffff | station Hennuru | anomaly_score 0.025 | mean_weekly 3.1 | max_week_jump 46.0 | recent_trend_ratio 3.89
+cell 8861892513fffff | station Adugodi | anomaly_score 0.025 | mean_weekly 33.1 | max_week_jump 174.0 | recent_trend_ratio 1.65
+cell 8861892195fffff | station Mahadevapura | anomaly_score 0.023 | mean_weekly 2.3 | max_week_jump 33.0 | recent_trend_ratio 4.17
+cell 8861892e17fffff | station Mahadevapura | anomaly_score 0.017 | mean_weekly 97.9 | max_week_jump 166.0 | recent_trend_ratio 1.13
