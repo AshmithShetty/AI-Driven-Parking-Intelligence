@@ -15,5 +15,5 @@ __pycache__/
 # Local agents cache
 .agents/
 
-# Data sets (Too large for GitHub)
-data/raw/
+# Data sets 
+data/raw/violations.csv
