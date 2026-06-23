@@ -23,7 +23,7 @@ Gridlock is a Streamlit prototype for Bengaluru parking enforcement intelligence
 
 ## Setup
 
-1. Create and activate a virtual environment.
+1. Create and activate a virtual environment `python -m venv venv` and `.\venv\Scripts\Activate`. 
 2. Install dependencies with `pip install -r requirements.txt`.
 3. Place the provided dataset at `data/raw/violations.csv`.
 4. Set `MAPPLS_API_KEY` if you want Mappls live traffic and browser-side route rendering.
